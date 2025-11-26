@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8" />
+    <title>NEXLOGGER – Inteligência em Logs e Segurança</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="NEXLOGGER é a plataforma de logs, segurança e observabilidade para APIs, e-mails corporativos e integrações críticas." />
+    <style>
+        body {
+            margin: 0;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+            background: #050816;
+            color: #f5f5f5;
+        }
+        header {
+            padding: 24px 10vw;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .logo {
+            font-weight: 700;
+            letter-spacing: 0.12em;
+        }
+        .badge {
+            font-size: 12px;
+            padding: 4px 10px;
+            border-radius: 999px;
+            border: 1px solid #444;
+            opacity: 0.8;
+        }
+        .hero {
+            padding: 64px 10vw 40px;
+            display: grid;
+            grid-template-columns: minmax(0, 1.3fr) minmax(0, 1fr);
+            gap: 40px;
+        }
+        .hero h1 {
+            font-size: clamp(32px, 4vw, 46px);
+            line-height: 1.1;
+            margin-bottom: 16px;
+        }
+        .hero p {
+            font-size: 16px;
+            max-width: 540px;
+            color: #d0d0d0;
+        }
+        .cta-group {
+            margin-top: 24px;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 12px;
+        }
+        .btn-primary, .btn-secondary {
+            padding: 12px 22px;
+            border-radius: 999px;
+            border: none;
+            cursor: pointer;
+            font-size: 14px;
+        }
+        .btn-primary {
+            background: linear-gradient(135deg, #5b8dff, #7c3aed);
+            color: #fff;
+        }
+        .btn-secondary {
+            background: transparent;
+            color: #e5e5e5;
+            border: 1px solid #444;
+        }
+        .hero-card {
+            border-radius: 18px;
+            border: 1px solid #222;
+            background: radial-gradient(circle at top left, #151a3b, #050816);
+            padding: 20px;
+            box-shadow: 0 18px 40px rgba(0,0,0,0.4);
+            font-size: 14px;
+        }
+        .hero-card h2 {
+            font-size: 16px;
+            margin-top: 0;
+        }
+        .hero-pill {
+            font-size: 11px;
+            text-transform: uppercase;
+            letter-spacing: 0.16em;
+            color: #9ca3af;
+            margin-bottom: 12px;
+        }
+        .tag-list {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 6px;
+            margin-top: 10px;
+        }
+        .tag {
+            font-size: 11px;
+            border-radius: 999px;
+            padding: 4px 10px;
+            border: 1px solid #374151;
+            color: #d1d5db;
+        }
+        section {
+            padding: 32px 10vw;
+        }
+        .section-title {
+            font-size: 20px;
+            margin-bottom: 10px;
+        }
+        .section-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            gap: 18px;
+            margin-top: 12px;
+        }
+        .card {
+            border-radius: 14px;
+            border: 1px solid #1f2933;
+            padding: 16px;
+            background: #050a18;
+        }
+        .card h3 {
+            font-size: 16px;
+            margin-top: 0;
+        }
+        .faq-item {
+            margin-bottom: 12px;
+        }
+        .faq-item strong {
+            display: block;
+            margin-bottom: 4px;
+        }
+        footer {
+            padding: 20px 10vw 30px;
+            border-top: 1px solid #111827;
+            font-size: 12px;
+            color: #9ca3af;
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            gap: 8px;
+        }
+        @media (max-width: 800px) {
+            .hero {
+                grid-template-columns: 1fr;
+                padding-top: 32px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">NEXLOGGER</div>
+        <div class="badge">Early access • 2025</div>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div>
+                <h1>Inteligência em logs, segurança e observabilidade em um só núcleo.</h1>
+                <p>
+                    O NEXLOGGER centraliza eventos técnicos e de negócio – APIs, e-mails corporativos,
+                    chatbots e integrações – para que sua equipe enxergue riscos, fraudes e falhas
+                    antes que eles virem crise.
+                </p>
+                <div class="cta-group">
+                    <button class="btn-primary">Quero conhecer o NEXLOGGER</button>
+                    <button class="btn-secondary">Receber novidades por e-mail</button>
+                </div>
+            </div>
+            <aside class="hero-card">
+                <div class="hero-pill">Visão em tempo real</div>
+                <h2>Um painel único para o que realmente importa.</h2>
+                <p>
+                    Conecte suas APIs, filas, e-mails e canais de atendimento em um hub de
+                    observabilidade com foco em segurança, compliance e experiência do cliente.
+                </p>
+                <div class="tag-list">
+                    <span class="tag">Logs + Segurança</span>
+                    <span class="tag">Cloud-native</span>
+                    <span class="tag">APIs & Webhooks</span>
+                    <span class="tag">Auditoria</span>
+                    <span class="tag">Multi-tenant</span>
+                </div>
+            </aside>
+        </section>
+
+        <section>
+            <h2 class="section-title">O problema</h2>
+            <div class="section-grid">
+                <div class="card">
+                    <h3>Logs fragmentados</h3>
+                    <p>
+                        Cada sistema tem seu log, linguagem e formato. Encontrar a origem de um incidente
+                        vira um trabalho manual lento e arriscado.
+                    </p>
+                </div>
+                <div class="card">
+                    <h3>Falta de contexto</h3>
+                    <p>
+                        É difícil correlacionar um erro de API com e-mails, chats ou integrações
+                        que foram disparadas no mesmo fluxo de negócio.
+                    </p>
+                </div>
+                <div class="card">
+                    <h3>Riscos invisíveis</h3>
+                    <p>
+                        Sem visão unificada, fraudes, falhas operacionais e descumprimento de SLAs
+                        são percebidos tarde demais.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <h2 class="section-title">Como o NEXLOGGER ajuda</h2>
+            <div class="section-grid">
+                <div class="card">
+                    <h3>Hub de eventos</h3>
+                    <p>
+                        Unifique logs técnicos, eventos de negócio e trilhas de auditoria em
+                        uma única camada de observabilidade.
+                    </p>
+                </div>
+                <div class="card">
+                    <h3>Segurança e compliance</h3>
+                    <p>
+                        Veja quem fez o quê, quando e em qual contexto. Ideal para times de
+                        segurança, jurídico e compliance.
+                    </p>
+                </div>
+                <div class="card">
+                    <h3>Pronto para escala</h3>
+                    <p>
+                        Arquitetura pensada para multi-cloud, multi-tenant e integrações com
+                        stacks modernas de desenvolvimento.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <h2 class="section-title">Perguntas frequentes</h2>
+            <div class="faq-item">
+                <strong>O NEXLOGGER já está disponível?</strong>
+                <span>Estamos em fase de early access com times selecionados. Você pode solicitar contato pelo botão acima.</span>
+            </div>
+            <div class="faq-item">
+                <strong>Para quem o NEXLOGGER foi pensado?</strong>
+                <span>Para times de tecnologia, segurança da informação, compliance e operações que precisam de rastreabilidade real.</span>
+            </div>
+            <div class="faq-item">
+                <strong>Com quais stacks ele se integra?</strong>
+                <span>Stack moderna: .NET, Node, filas, bancos SQL/NoSQL, ambientes multi-cloud e serviços edge como Cloudflare.</span>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <span>© <span id="year"></span> NEXLOGGER. Todos os direitos reservados.</span>
+        <span>Contato: contato@nexlogger.com</span>
+    </footer>
+
+    <script>
+        document.getElementById("year").textContent = new Date().getFullYear();
+    </script>
+</body>
+</html>
